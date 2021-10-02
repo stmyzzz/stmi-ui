@@ -1,5 +1,4 @@
-# Getting Started with Create React App
-
+# 简洁优雅的react组件库 dc-ui
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
