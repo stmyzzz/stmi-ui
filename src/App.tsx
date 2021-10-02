@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/index.scss";
+import Button, { ButtonType, ButtonSize } from './components/Button/button'
 function App() {
   return (
     <div className="App">
@@ -11,14 +12,13 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="blue"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Button >测试</Button>
+        <Button disabled>disbaled</Button>
+        <Button btnType={ButtonType.Danger}>警告按钮</Button>
+        <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>test2</Button>
+        <Button btnType={ButtonType.Primary} size={ButtonSize.Small}>test2</Button>
+        <Button btnType={ButtonType.Link} href="www.baidu.com" >link</Button>
+        <Button btnType={ButtonType.Link} href="www.baidu.com" disabled >disabled link</Button>
       </header>
     </div>
   );
