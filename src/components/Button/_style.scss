@@ -35,8 +35,8 @@
 .btn-primary {
   @include button-style($primary,$primary,$white)
 }
-.btn-danger {
-  @include button-style($danger,$danger,$white)
+.btn-error {
+  @include button-style($error,$error,$white)
 }
 .btn-default{
   @include button-style($white,$gray-400,$body-color,$white,$primary)
