@@ -1,8 +1,6 @@
 import React, { useState, createContext } from 'react'
 import classNames from 'classnames'
 import { MenuItemProps } from './menuItem'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 export type MenuMode = 'horizontal' | 'vertical'
 type SelectCallback = (selectedIndex: string) => void;
 export interface MenuProps {
