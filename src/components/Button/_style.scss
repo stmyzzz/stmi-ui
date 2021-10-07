@@ -38,6 +38,9 @@
 .btn-error {
   @include button-style($error,$error,$white)
 }
+.btn-warning {
+  @include button-style($error,$warning,$white)
+}
 .btn-default{
   @include button-style($white,$gray-400,$body-color,$white,$primary)
 }
